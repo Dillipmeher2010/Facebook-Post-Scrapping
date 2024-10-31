@@ -9,7 +9,7 @@ PAGE_ID = '100064058797322'  # Limra Chicken Ghazipur Delhi Page ID
 
 # Initialize Facebook Graph API
 graph = facebook.GraphAPI(access_token=ACCESS_TOKEN, version="3.0")
-
+# graph = facebook.GraphAPI(access_token=ACCESS_TOKEN, version="3.0")
 # Function to get posts
 def get_facebook_posts(page_id, limit=10):
     posts_data = []
